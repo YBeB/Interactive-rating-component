@@ -1,0 +1,161 @@
+body{
+
+    background-color: hsl(216, 12%, 8%);
+    color : hsl(0, 0%, 100%);
+font-family: 'Outfit';
+    padding:0px;
+    margin: 0px;
+}
+h1{
+font-weight: 700;
+display: flex;
+justify-content: flex-start;
+align-self: start;
+padding: 0px;
+margin: 0px;
+}
+
+
+.bg-dark{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+    width: 100vw;
+
+}
+.square-note{
+    background-color:hsl(213, 19%, 18%) ;
+    border-radius: 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 20px;
+width:350px;
+}
+p{
+    font-weight: 400;
+font-size: 15px;
+color:hsl(217, 12%, 63%);
+align-self: flex-start;
+
+}
+button{
+background-color:hsl(217, 12%, 22%) ;
+border: none;
+border-radius: 800px;
+width: 50px;
+height: 50px;
+color : white;
+margin: 7px;
+}
+.sub-button{
+
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+#submit{
+width: 300px;
+background-color: white;
+color:hsl(216, 12%, 8%);
+}
+button:hover{
+background-color: white;
+color:black;
+
+}
+.round-star{
+display: flex;
+align-items: center;
+justify-content: center;
+
+border-radius: 50px;
+background-color:hsl(217, 12%, 22%) ;
+height: 50px;
+width: 50px;
+}
+.star-icon{
+
+    height: 20px;
+    width: 20px;
+
+}
+.star-content{
+display: flex;
+align-self: flex-start;
+justify-content: flex-start;
+margin:20px 0px;
+}
+.selected{
+background-color: orange;
+
+
+}
+
+.centered-p{
+
+    text-align: center;
+}
+.thankyou-h1{
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+}
+
+.thanks-paragraph{
+margin: 0px;
+opacity: 1;
+    
+color:hsl(25, 97%, 53%);
+
+}
+.background-paragraph{
+padding: 7px;
+    border-radius: 30px;
+    background-color:#959EAC ;
+
+}
+a{ 
+text-decoration: none;
+
+
+}
+#submit:disabled{
+color:yellow
+
+}
+
+@media only screen and (max-width: 404px) {
+
+.square-note{
+    padding: 25px;
+    width:255px;
+}
+button{
+
+ 
+    background-color:hsl(217, 12%, 22%) ;
+    border: none;
+    border-radius: 800px;
+    width: 43px;
+    height: 43px;
+    color : white;
+    margin: 7px;
+    }
+.notes{display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+#submit{
+    width: 280px;
+    background-color: white;
+    color:hsl(216, 12%, 8%);
+    }
+}
