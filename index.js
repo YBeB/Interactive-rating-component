@@ -1,5 +1,8 @@
 let buttons = document.querySelectorAll('button');
-let numberss=document.querySelectorAll('.numbers')
+let numberss=document.querySelectorAll('.numbers');
+
+
+
 numberss.forEach((btn)=>btn.addEventListener('click',()=>{
 
    
@@ -17,15 +20,13 @@ sessionStorage.setItem('stars',btn.innerHTML)
 
 
 
-function verifysessionStorage(){
-let submitButton =document.getElementById('submit')
 
-if(sessionStorage.getItem("stars")==null){
-    submitButton.disabled=true;
-
-
-}
+let submitButton = document.getElementById('submit');
+function submitForm(){
+console.log('click')
+window.location=('thankyou.html')
 
 
 }
-verifysessionStorage()
+
+submitButton.addEventListener('click',submitForm)
