@@ -60,7 +60,7 @@ align-items: center;
 }
 #submit{
 width: 300px;
-background-color: white;
+background-color: hsl(25, 97%, 53%);
 color:hsl(216, 12%, 8%);
 }
 button:hover{
@@ -91,7 +91,7 @@ justify-content: flex-start;
 margin:20px 0px;
 }
 .selected{
-background-color: orange;
+background-color:  hsl(25, 97%, 53%);
 
 
 }
